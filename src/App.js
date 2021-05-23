@@ -15,9 +15,10 @@ function App() {
               <nav>
                 <ol className="navbar-nav">
                   <li className="nav-item">
-                    <a ClassName="nav-link">
+                    <a className="nav-link">
                       <NavLink exact to="/">
-                        Login
+                        {" "}
+                        Login{" "}
                       </NavLink>
                     </a>
                   </li>
@@ -31,7 +32,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div classNameName="content">
+        <div className="content">
           <Route exact path="/" component={Login} />
           <Route path="/register" component={Register} />
         </div>
