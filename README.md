@@ -45,6 +45,10 @@ COPY --from=builder /app/build .
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
 
 ```
-Start
+### Запустить 
+```js
 docker build -t plant .
 docker run --rm -it -p 8080:80 plant
+
+http://localhost:8000/
+```
