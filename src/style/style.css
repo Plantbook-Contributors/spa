@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+
+button {
+    background-color: #000000;
+    color: white;
+    border: 0px;
+    padding: 4px 20px;
+    cursor: pointer;
+  }
+.navbar {
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background: var(--color-app-grey-0);
+    z-index: 9996;
+    -webkit-box-shadow: inset 0px -1px 0px var(--color-app-grey-1);
+    box-shadow: inset 0px -1px 0px var(--color-app-grey-1);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    will-change: transform;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    top: 0;
+    min-width: 320px;
+    width: 100%;
+    z-index: 5000;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav a {
+    color: var(--color-app-grey-2);
+    padding: 10px 16px;
+}
+
+.nav-link.active {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px 16px;
+    outline: none;
+    border-radius: 8px;
+    -webkit-transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, -webkit-box-shadow 200ms ease;
+    transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, -webkit-box-shadow 200ms ease;
+    transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, box-shadow 200ms ease;
+    transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, box-shadow 200ms ease, -webkit-box-shadow 200ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #f3f3f4;
+    display: block;
+    width: 100%;
+    background-color: var(--color-app);
+}
+
+@media (max-width: 530px) {
+    .nav-link.active {
+        display: none;
+    }
+
+    .navbar-nav a {
+        padding-right: 0;
+    }
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+a:visited,
+a:active {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.container-fluid {
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+    height: 100px;
+    align-items: center;
+}
+
+@media (max-width: 414px) {
+    .btn-root {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 414px) {
+    .btn-navbar {
+        padding: 0;
+    }
+}
+
+.app-btn-navbar {
+  place-self: center;
+  padding-right: 14px;
+}
+
+.app-btn-a {
+  display: inline-block;
+  padding: 10px 16px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+
+
+.app-btn-color-0 {
+  background: var(--color-app);
+}
+.app-btn-color-0:hover {
+  background: black;
+}
+
+
+.app-btn-color-1 {
+  background: var(--color-app-grey-1);
+  color: #0d0c22;
+}
+
+.app-btn-easy:hover {
+  background-color: var(--color-app-grey-4);
+}
+
+
+.app-btn {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px 16px;
+  outline: none;
+  border-radius: 8px;
+  -webkit-transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, -webkit-box-shadow 200ms ease;
+  transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, -webkit-box-shadow 200ms ease;
+  transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, box-shadow 200ms ease;
+  transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, box-shadow 200ms ease, -webkit-box-shadow 200ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #0d0c22;
+  color: #f3f3f4;
+  display: block;
+  width: 100%;
+  margin-top: 22px;
+  background-color: var(--color-app);
+}
+.app-btn:hover{
+  background-color: black;
+}
+.btn-white{
+
+}
+h2{
+  color: gray;
+}
