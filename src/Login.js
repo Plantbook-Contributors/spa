@@ -5,9 +5,9 @@ class Login extends Component {
     return (
       <div className="main">
         <h2 className="tittle">Sign in to Plantbook</h2>
-        <p>
+        <>
           Mauris sem velit, vehicula eget sodales vitae, rhoncus eget sapien:
-        </p>
+        </>
       </div>
     );
   }

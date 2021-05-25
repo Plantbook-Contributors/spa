@@ -5,7 +5,7 @@ import Register from "./Register";
 function App() {
   return (
     <HashRouter>
-      <div>
+      <>
         <div className="header">
           <div className="navbar">
             <div className="container-fluid">
@@ -36,8 +36,9 @@ function App() {
           <Route exact path="/" component={Login} />
           <Route path="/register" component={Register} />
         </div>
-      </div>
+      </>
     </HashRouter>
+  
   );
 }
 
